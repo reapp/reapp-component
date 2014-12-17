@@ -1,0 +1,19 @@
+{
+  "name": "reapp-component",
+  "version": "1.0.0",
+  "description": "ultra simple dependency injection and statics/globals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/reapp/reapp-component"
+  },
+  "author": "Nate Wienert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reapp/reapp-component/issues"
+  },
+  "homepage": "https://github.com/reapp/reapp-component"
+}
