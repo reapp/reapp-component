@@ -5,7 +5,7 @@ Component is a tiny, no-dependency library designed for top-down applications.
  It's essential a factory, that provides two things on it's factories:
 
   - Decorators through `addDecorator`
-  - Dependency Injection through addStatics
+  - Dependency Injection through `addStatics`
 
 Works great with React. Because React apps use gradual controller-view -> view trees
 DI is typically very simple and more akin to global variables. Decorators are helpful
@@ -25,7 +25,7 @@ c1.addDecorator(spec => {
 c1.addStatics('hello', 'world');
 
 assert(c1.hello === 'world');
-assert(c1() === { decorated: true })
+assert(c1({}) === { decorated: true })
 ```
 
 Tests coming.
