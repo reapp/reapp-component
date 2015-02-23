@@ -18,7 +18,7 @@ DI is typically very simple and more akin to global variables. Decorators are he
 for medium to large scale apps. They can help you have default mixins, and automate
 other tasks you'd normally do all over the place.
 
-## Usage
+### Usage
 
 ```js
 var c1 = Component();
