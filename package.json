@@ -4,7 +4,7 @@
   "description": "ultra simple dependency injection and statics/globals",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir . --experimental"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/reapp/reapp-component/issues"
   },
-  "homepage": "https://github.com/reapp/reapp-component"
+  "homepage": "https://github.com/reapp/reapp-component",
+  "devDependencies": {
+    "babel": "^4.7.16"
+  }
 }
