@@ -1,6 +1,6 @@
 {
   "name": "reapp-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ultra simple dependency injection and statics/globals",
   "main": "index.js",
   "scripts": {
