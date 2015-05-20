@@ -2,7 +2,7 @@
 
 Component is a tiny, no-dependency library designed for top-down applications.
 
- It's essential a factory, that provides two things on it's factories:
+ It's essentially a factory, that provides two things on it's factories:
 
   - Decorators through `addDecorator`
   - Dependency Injection through `addStatics`
